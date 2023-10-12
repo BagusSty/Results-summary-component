@@ -99,6 +99,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0 20px;
+    align-items: center;
     overflow: hidden;
 }
 
@@ -114,6 +115,7 @@ body {
 
 .right h2 {
     color: var(--Dark-gray-blue);
+    align-self: baseline;
 }
 
 .right div p {
@@ -156,6 +158,19 @@ body {
 
 .right .visual p:nth-child(2) {
     color: var(--Cobalt-blue);
+}
+
+.right button {
+    margin: 10px 0;
+    width: 80%;
+    align-items: center;
+    padding: 15px;
+    border-radius: 30px;
+    background-color: var(--Dark-gray-blue);
+    box-shadow: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--White);
 }
 
 .attribution {
